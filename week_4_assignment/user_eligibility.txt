@@ -1,0 +1,6 @@
+In Nigeria, assume that the only eligibility condition for voting are:
+A user who is from Nigeria can vote regardless of their age
+A user must be older than 18 if he/she is not a Nigerian
+Write a javascript code that accepts the age, and country of any user (using the prompt box) one after the other.
+If the user is eligible to vote based on the stated condition, alert(“You can vote”)
+If the user does not satisfy the eligibility condition, alert(“You cannot vote”);

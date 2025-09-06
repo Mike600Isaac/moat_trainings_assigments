@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="learning everything about control statement in JS" >
+	<meta name="author" content="Micheal Isaac">
+
+	<title>Conditional Statement Assigment</title>
+</head>
+
+
+<body>
+
+
+<script type="text/javascript">
+	var userInput_1 = prompt("Kindly enter in your age");
+	var userInput_2 = prompt("Kindly enter in your country");
+	var user_2_case = userInput_2.toLowerCase();
+
+	if((userInput_1 > 0) && (user_2_case == "nigeria")) {
+		alert("You can vote");
+	} else if ((userInput_1 < 18) && (user_2_case != 'nigeria')) {
+		alert("You can not vote");
+	} else {
+		alert("You can vote")
+	}
+</script>
+</body>
+</html>
