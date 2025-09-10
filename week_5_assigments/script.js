@@ -8,6 +8,10 @@ function addTen(n) {
     console.log(n + 10);
     counter++;
      n++;
+
+     if( counter > n) {
+        break;
+     }
  }
  
 }
